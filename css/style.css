@@ -1,0 +1,477 @@
+#foo {
+    -skrollr-animation-name: animation1;
+}
+
+@-skrollr-keyframes animation1 {
+    0 {transform: rotate(0deg);}
+    200 {transform: rotate(360deg);}
+}
+
+html, body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 137px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+p {
+    font-size: 19px;
+}
+
+span {
+    color: #2980b9;
+}
+
+#features, #guarantee, #accountants, #customers {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+#hero .btn,
+.get-started-btn {
+	display: inline-block;
+	padding: 23px 85px;
+	margin-bottom: 0;
+	font-size: 35px;
+	font-weight: 900;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	background: transparent;
+	border: 2px solid #2980b9;
+	color: #2980b9;
+	border-radius: 60px;
+	text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+header {
+    margin-bottom: 110px;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0px;
+}
+
+.navbar-inverse {
+    background-color: #2980b9;
+    color: #fff;
+    border:
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+    font-size: 20px;
+    padding: 30px 20px;
+}
+
+.start-now-btn {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin: 20px 20px;
+    transition: all 0.3s;
+}
+
+.navbar-inverse .navbar-nav > li.start-now-btn > a {
+    padding: 10px 36px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li.start-now-btn > a:focus,
+.navbar-inverse .navbar-nav > li.start-now-btn > a:hover {
+	color: #2980b9;
+	background-color: #fff;
+}
+
+
+
+/* === HERO SECTION === */
+
+#hero {
+    margin-bottom: 150px;
+}
+
+#hero h2 {
+    font-size: 51px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+#hero img {
+	margin-top: -100px;
+	margin-left: 34px;
+}
+
+#hero h1 {
+    margin-top: -16px;
+    margin-bottom: 34px;
+}
+
+#hero h3 {
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 56px;
+}
+
+#hero .btn:hover,
+#pricing .get-started-btn:hover,
+#accountants .get-started-btn:hover {
+    background: #2980b9;
+    color: #fff;
+}
+
+#table {
+    margin-bottom: 56px;
+}
+
+#table {
+    min-height: 627px;
+    background: url(../img/table-with-objects.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* === end hero section === */
+
+
+/* === HOURS SECTION === */
+
+#hours {
+    margin-bottom: 56px;
+}
+
+#hours h2 {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 64px;
+    margin-bottom: -40px;
+}
+
+#hours img {
+}
+
+/* === end hours section === */
+
+
+/* === FEATURES SECTION === */
+
+#features {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    height: 100%;
+}
+
+#features h2 {
+    margin-bottom: 90px;
+    line-height: 1.3;
+}
+
+#features h3 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* === end features section === */
+
+
+/* === PRICING SECTION === */
+
+#pricing {
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+#pricing h2 {
+    margin-bottom: 86px;
+}
+
+#pricing h3 {
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+#pricing .price-container {
+    position: relative;
+    margin-bottom: 230px;
+}
+
+#pricing .price {
+    position: absolute;
+    top: 70px;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#pricing .price span {
+    text-transform: lowercase;
+    font-size: 36px;
+    color: #333333;
+}
+
+#pricing .price small {
+    font-size: 16px;
+    text-transform: lowercase;
+	top: 100px;
+	position: absolute;
+	left: 180px;
+}
+
+#pricing .btn-price {
+	display: inline-block;
+	padding: 4px 18px;
+	margin-bottom: 0;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	background: transparent;
+	border: 2px solid #2980b9;
+	color: #2980b9;
+	border-radius: 60px;
+	text-transform: uppercase;
+    transition: all 0.3s;
+    margin-right: 18px;
+}
+
+#pricing .btn-price:active,
+#pricing .btn-price:hover {
+    background: #2980b9;
+    color: #fff;
+}
+
+#pricing .btn-price.active {
+    background: #2980b9;
+    color: #fff;
+}
+
+#pricing ul li {
+    font-size: 21px;
+    padding-bottom: 5px;
+}
+
+#pricing p {
+    font-size: 21px;
+    margin: 0 0 5px 20px;
+}
+
+/* === end pricing section === */
+
+
+/* === TEAM SECTION === */
+
+#team {
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+#team h2 {
+    margin-bottom: 54px;
+}
+
+#team .team-member {
+    display: block;
+    margin: 0 auto;
+}
+
+#team hr {
+    margin-top: 0;
+    border: 1px solid #2980b9;
+}
+
+/* === end team section === */
+
+
+/* === ACCOUNTANTS SECTION === */
+
+#guarantee, #accountants {
+    padding: 46px 0;
+}
+
+#accountants .get-started-btn {
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+#accountants .get-started-btn:hover {
+    background: #2980b9;
+    border: 2px solid #fff;
+}
+
+#accountants h2 {
+    margin-bottom: 64px;
+}
+
+/* === end accountants section === */
+
+
+/* === PACKAGE SECTION === */
+
+#package h2 {
+    margin-top: 90px;
+    margin-bottom: 110px;
+}
+
+#package h3,
+#package span {
+    display: inline-block;
+}
+
+#package span {
+    margin-right: 20px;
+    font-size: 60px;
+}
+
+#package p {
+    margin-bottom: 110px;
+}
+
+#package .get-started-btn {
+    margin: 110px auto 140px;
+    display: block;
+}
+
+/* === end package section === */
+
+
+/* === CUSTOMERS SECTION === */
+
+#customers {
+    background: url(../img/customer-bg.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 76px;
+    padding-bottom: 110px;
+}
+
+#customers h2 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+#customers img {
+    display: block;
+    margin: 0 auto;
+}
+
+#customers a, #customers a span {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* === end customers section === */
+
+
+/* === FOOTER === */
+
+footer {
+    background: #164868;
+    color: #fff;
+    padding-top: 58px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .footer-links > li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+footer .footer-links > li:first-child {
+    margin-left: 0;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+footer .footer-links li ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+footer h6 {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    font-size: 14px;
+}
+
+footer h6 span {
+    margin-left: 62px;
+    color: #fff;
+}
+
+/* === end footer === */
