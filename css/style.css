@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -411,9 +411,9 @@ header {
 }
 
 #customers h2 {
-    font-size: 36px;
+    font-size: 32px;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 #customers img {
@@ -424,7 +424,7 @@ header {
 #customers a, #customers a span {
     font-size: 25px;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* === end customers section === */
@@ -451,6 +451,7 @@ footer ul {
 footer .footer-links > li {
     display: inline-block;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 footer .footer-links > li:first-child {
