@@ -332,6 +332,10 @@ header {
     margin-bottom: 54px;
 }
 
+#team h3 {
+    text-align: left;
+}
+
 #team .team-member {
     display: block;
     margin: 0 auto;
@@ -340,6 +344,12 @@ header {
 #team hr {
     margin-top: 0;
     border: 1px solid #2980b9;
+}
+
+#team .intro-text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 /* === end team section === */
