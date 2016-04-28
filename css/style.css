@@ -73,12 +73,19 @@ span {
 	-ms-user-select: none;
 	user-select: none;
 	background-image: none;
-	background: transparent;
-	border: 2px solid #2980b9;
-	color: #2980b9;
+	background: #c6090d;
+	border: 2px solid #8A070A;
+	color: #fff;
 	border-radius: 60px;
 	text-transform: uppercase;
     transition: all 0.3s;
+}
+
+#hero .btn:hover,
+.get-started-btn:hover {
+    background: #8A070A;
+    border: 2px solid #8A070A;
+    color: #fff;
 }
 
 header {
@@ -93,7 +100,6 @@ header {
 .navbar-inverse {
     background-color: #2980b9;
     color: #fff;
-    border:
 }
 
 .navbar-inverse .navbar-brand {
@@ -101,35 +107,38 @@ header {
     font-size: 22px;
     font-weight: bold;
     padding: 30px 15px;
+    transition: all 0.3s;
+    height: 100%;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
     font-size: 20px;
     padding: 30px 20px;
+    transition: all 0.3s;
 }
 
 .start-now-btn {
-    border: 2px solid #fff;
-    border-radius: 30px;
     margin: 20px 20px;
-    transition: all 0.3s;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a {
     padding: 10px 36px;
+    border: 2px solid #fff;
+    border-radius: 30px;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
-.navbar-inverse .navbar-nav > li > a:hover {
-	color: #fff;
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-brand:hover {
+	color: #164868;
 	background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a:focus,
 .navbar-inverse .navbar-nav > li.start-now-btn > a:hover {
-	color: #2980b9;
-	background-color: #fff;
+	color: #fff;
+	background-color: #164868;
 }
 
 
@@ -166,21 +175,14 @@ header {
     margin-bottom: 56px;
 }
 
-#hero .btn:hover,
-#pricing .get-started-btn:hover,
-#accountants .get-started-btn:hover {
-    background: #2980b9;
-    color: #fff;
-}
-
 #table {
     margin-bottom: 56px;
 }
 
 #table {
-    min-height: 627px;
+    height: 627px;
     background: url(../img/table-with-objects.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* === end hero section === */
@@ -350,14 +352,17 @@ header {
 }
 
 #accountants .get-started-btn {
-    background: #fff;
+    background: #2980b9;
     margin: 0 auto;
     display: block;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 #accountants .get-started-btn:hover {
-    background: #2980b9;
+    background: #164868;
     border: 2px solid #fff;
+    color: #fff;
 }
 
 #accountants h2 {
