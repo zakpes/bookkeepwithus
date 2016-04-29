@@ -574,6 +574,18 @@ footer h6 span {
         margin-bottom: 60px;
     }
 
+    #pricing .get-started-btn,
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+        font-size: 26px;
+        padding: 16px 24px;
+        margin: 30px auto 0;
+    }
+
+    #package .get-started-btn {
+        margin: 110px auto;
+    }
+
     #hero img {
     	margin-top: -82px;
     	margin-left: 34px;
@@ -649,7 +661,7 @@ footer h6 span {
 
     #pricing .btn-price {
     	display: inline-block;
-        padding: 4px 30px;
+        padding: 4px 28px;
     	margin-bottom: 10px;
     	margin-right: 10px;
     }
@@ -672,11 +684,6 @@ footer h6 span {
     	padding-bottom: 5px;
     }
 
-    #pricing .get-started-btn {
-    	padding: 16px 24px;
-    	margin: 30px auto 0;
-    }
-
     #team h2 {
     	margin-bottom: 36px;
     }
@@ -697,10 +704,6 @@ footer h6 span {
     	margin-bottom: 40px;
     }
 
-    #accountants .get-started-btn,
-    #package .get-started-btn {
-    	padding: 16px 30px;
-    }
 
     #package span {
     	margin-right: 12px;
@@ -713,10 +716,6 @@ footer h6 span {
 
     #package p {
     	margin-bottom: 50px;
-    }
-
-    #package .get-started-btn {
-        margin: 110px auto;
     }
 
     #customers h2 {
@@ -744,16 +743,12 @@ footer h6 span {
         padding-left: 0;
     }
 
-    footer .footer-links > li {
-    	margin-right: 30px;
-    }
-
     footer .footer-links li ul li {
     	margin-bottom: 6px;
     }
 
     footer h6 {
-    	right: 60px;
+    	right: 50px;
     }
 
 }
