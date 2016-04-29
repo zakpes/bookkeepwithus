@@ -126,7 +126,7 @@ header {
     padding: 10px 36px;
     border: 2px solid #fff;
     border-radius: 30px;
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
