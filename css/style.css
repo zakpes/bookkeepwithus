@@ -538,7 +538,7 @@ footer h6 span {
 
 
     h1 {
-        font-size: 84px;
+        font-size: 74px;
         font-weight: 900;
         text-transform: uppercase;
     }
@@ -625,7 +625,7 @@ footer h6 span {
     }
 
     #hours h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     #hours img {
@@ -732,7 +732,7 @@ footer h6 span {
     }
 
     footer .footer-links > li {
-        margin-left: 0;
+        margin-left: 35px;
     }
 
     footer h5 {
@@ -743,8 +743,16 @@ footer h6 span {
         padding-left: 0;
     }
 
+    footer ul {
+    	padding-left: 20px;
+    }
+
     footer .footer-links li ul li {
     	margin-bottom: 6px;
+    }
+
+    footer .footer-links > li {
+        margin-right: 30px;
     }
 
     footer h6 {
@@ -753,10 +761,54 @@ footer h6 span {
 
 }
 
+@media screen and ( min-width : 360px ) {
+
+    h1 {
+    	font-size: 84px;
+    }
+
+    #hours h2 {
+    	font-size: 26px;
+    }
+
+    #pricing .get-started-btn,
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+    	font-size: 30px;
+    }
+}
+
 /* Extra Small Devices, Phones */
 @media screen and ( min-width : 480px ) {
 
+    #hero img {
+    	width: 60%;
+        margin: -50px auto 0;
+    }
 
+    h1 {
+    	font-size: 104px;
+    }
+
+    #table {
+    	height: 210px;
+    }
+
+    #hours h2 {
+    	font-size: 30px;
+    }
+
+    #package h2 {
+    	margin: 70px 20px;
+    }
+
+    #team img {
+    	margin: 30px 0 16px 70px;
+    }
+
+    footer .footer-links > li {
+    	margin-right: 0;
+    }
 }
 
 @media screen and ( min-width : 568px ) {
