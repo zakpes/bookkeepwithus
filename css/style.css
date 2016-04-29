@@ -126,6 +126,7 @@ header {
     padding: 10px 36px;
     border: 2px solid #fff;
     border-radius: 30px;
+    display: inline;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
@@ -176,11 +177,8 @@ header {
 }
 
 #table {
-    margin-bottom: 56px;
-}
-
-#table {
     height: 627px;
+    margin-bottom: 56px;
     background: url(../img/table-with-objects.jpg) center center no-repeat;
     background-size: contain;
 }
@@ -491,3 +489,302 @@ footer h6 span {
 }
 
 /* === end footer === */
+
+
+/* === MEDIA QUERIES DESKTOP-FIRST === */
+
+/* Large Devices, Wide Screens */
+@media screen and ( max-width : 1199px ) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media screen and ( max-width : 991px ) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media screen and ( max-width : 767px ) {
+
+
+}
+
+@media screen and ( max-width : 568px ) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and ( max-width : 480px ) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width : 320px) {
+
+
+}
+
+/* === end media queries desktop-first === */
+
+
+/* === MEDIA QUERIES MOBILE-FIRST === */
+
+/* Custom, iPhone Retina */
+@media screen and ( min-width : 320px ) {
+
+
+    h1 {
+        font-size: 84px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .navbar-toggle {
+        margin-top: 23px;
+    }
+
+    header {
+        margin-bottom: 60px;
+    }
+
+    #hero img {
+    	margin-top: -82px;
+    	margin-left: 34px;
+    	width: 228px;
+    }
+
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    #hero h1 {
+    	margin-top: 0px;
+    }
+
+    #hero h3 {
+    	margin-bottom: 40px;
+    }
+
+    #hero .btn, .get-started-btn {
+    	display: block;
+    	padding: 16px 60px;
+    	font-size: 30px;
+        margin: 0 auto;
+    }
+
+    #hero {
+        margin-bottom: 50px;
+    }
+
+    #table {
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    #hours {
+        margin-bottom: 0;
+    }
+
+    #hours h2 {
+        font-size: 26px;
+    }
+
+    #hours img {
+    	width: 50%;
+    	display: block;
+    	margin: 76px auto;
+    }
+
+    #features h2 {
+        margin-bottom: 0;
+    }
+
+    #features h3 {
+        margin-top: 40px;
+    	margin-bottom: 20px;
+    }
+
+    #pricing h2 {
+    	margin-bottom: 50px;
+    }
+
+    #pricing h3 {
+    	text-align: center;
+    }
+
+    #pricing .col-xs-12 {
+        text-align: center;
+    }
+
+    #pricing ul {
+        padding-left: 25px;
+    }
+
+    #pricing .btn-price {
+    	display: inline-block;
+        padding: 4px 30px;
+    	margin-bottom: 10px;
+    	margin-right: 10px;
+    }
+
+    #pricing .price-container {
+    	margin-bottom: 180px;
+    }
+
+    #pricing .price {
+    	top: 20px;
+    }
+
+    #pricing p {
+    	font-size: 16px;
+    	margin: 0 0 5px 10px;
+    }
+
+    #pricing ul li {
+    	font-size: 16px;
+    	padding-bottom: 5px;
+    }
+
+    #pricing .get-started-btn {
+    	padding: 16px 24px;
+    	margin: 30px auto 0;
+    }
+
+    #team h2 {
+    	margin-bottom: 36px;
+    }
+
+    #team .team-member {
+    	width: 60%;
+    }
+
+    #team .intro-text {
+    	margin-bottom: 40px;
+    }
+
+    #team img {
+        margin: 30px 0 16px;
+    }
+
+    #accountants h2 {
+    	margin-bottom: 40px;
+    }
+
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+    	padding: 16px 30px;
+    }
+
+    #package span {
+    	margin-right: 12px;
+    }
+
+    #package h2 {
+    	margin: 70px 10px;
+        line-height: 1.3;
+    }
+
+    #package p {
+    	margin-bottom: 50px;
+    }
+
+    #package .get-started-btn {
+        margin: 110px auto;
+    }
+
+    #customers h2 {
+    	font-size: 30px;
+    }
+
+    h4 {
+    	font-size: 14px;
+    }
+
+    #customers a, #customers a span {
+    	margin-top: 0px;
+    	margin-bottom: 20px;
+    }
+
+    footer .footer-links > li {
+        margin-left: 0;
+    }
+
+    footer h5 {
+    	margin-top: 25px;
+    }
+
+    footer .footer-links {
+        padding-left: 0;
+    }
+
+    footer .footer-links > li {
+    	margin-right: 30px;
+    }
+
+    footer .footer-links li ul li {
+    	margin-bottom: 6px;
+    }
+
+    footer h6 {
+    	right: 60px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and ( min-width : 480px ) {
+
+
+}
+
+@media screen and ( min-width : 568px ) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media screen and ( min-width : 768px ) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media screen and ( min-width : 992px ) and ( max-width : 1199px ) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media screen and ( min-width : 1200px ) {
+
+
+}
+
+/* === end media queries mobile-first === */
