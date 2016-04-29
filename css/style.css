@@ -791,7 +791,7 @@ footer h6 span {
 
 }
 
-@media screen and ( min-width : 360px ) and ( max-width : 991px ) {
+@media screen and ( min-width : 360px ) and ( max-width : 1199px ) {
 
     h1 {
     	font-size: 84px;
@@ -813,7 +813,7 @@ footer h6 span {
 }
 
 /* Extra Small Devices, Phones */
-@media screen and ( min-width : 480px ) and ( max-width : 991px ) {
+@media screen and ( min-width : 480px ) and ( max-width : 1199px ) {
 
     #hero img {
     	width: 60%;
@@ -845,7 +845,7 @@ footer h6 span {
     }
 }
 
-@media screen and ( min-width : 568px ) and ( max-width : 991px ) {
+@media screen and ( min-width : 568px ) and ( max-width : 1199px ) {
 
     #team img {
         margin: 30px 0 16px 108px;
@@ -853,7 +853,7 @@ footer h6 span {
 
 }
 
-@media screen and ( min-width : 640px ) and ( max-width : 991px ) {
+@media screen and ( min-width : 640px ) and ( max-width : 1199px ) {
 
     #table {
     	height: 280px;
