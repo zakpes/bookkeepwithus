@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -73,12 +73,19 @@ span {
 	-ms-user-select: none;
 	user-select: none;
 	background-image: none;
-	background: transparent;
-	border: 2px solid #2980b9;
-	color: #2980b9;
+	background: #c6090d;
+	border: 2px solid #8A070A;
+	color: #fff;
 	border-radius: 60px;
 	text-transform: uppercase;
     transition: all 0.3s;
+}
+
+#hero .btn:hover,
+.get-started-btn:hover {
+    background: #8A070A;
+    border: 2px solid #8A070A;
+    color: #fff;
 }
 
 header {
@@ -93,7 +100,6 @@ header {
 .navbar-inverse {
     background-color: #2980b9;
     color: #fff;
-    border:
 }
 
 .navbar-inverse .navbar-brand {
@@ -101,35 +107,39 @@ header {
     font-size: 22px;
     font-weight: bold;
     padding: 30px 15px;
+    transition: all 0.3s;
+    height: 100%;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
     font-size: 20px;
     padding: 30px 20px;
+    transition: all 0.3s;
 }
 
 .start-now-btn {
-    border: 2px solid #fff;
-    border-radius: 30px;
     margin: 20px 20px;
-    transition: all 0.3s;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a {
     padding: 10px 36px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    display: inline;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus,
-.navbar-inverse .navbar-nav > li > a:hover {
-	color: #fff;
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-brand:hover {
+	color: #164868;
 	background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a:focus,
 .navbar-inverse .navbar-nav > li.start-now-btn > a:hover {
-	color: #2980b9;
-	background-color: #fff;
+	color: #fff;
+	background-color: #164868;
 }
 
 
@@ -166,21 +176,11 @@ header {
     margin-bottom: 56px;
 }
 
-#hero .btn:hover,
-#pricing .get-started-btn:hover,
-#accountants .get-started-btn:hover {
-    background: #2980b9;
-    color: #fff;
-}
-
 #table {
+    height: 627px;
     margin-bottom: 56px;
-}
-
-#table {
-    min-height: 627px;
     background: url(../img/table-with-objects.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* === end hero section === */
@@ -330,6 +330,10 @@ header {
     margin-bottom: 54px;
 }
 
+#team h3 {
+    text-align: left;
+}
+
 #team .team-member {
     display: block;
     margin: 0 auto;
@@ -338,6 +342,12 @@ header {
 #team hr {
     margin-top: 0;
     border: 1px solid #2980b9;
+}
+
+#team .intro-text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 /* === end team section === */
@@ -350,14 +360,17 @@ header {
 }
 
 #accountants .get-started-btn {
-    background: #fff;
+    background: #2980b9;
     margin: 0 auto;
     display: block;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 #accountants .get-started-btn:hover {
-    background: #2980b9;
+    background: #164868;
     border: 2px solid #fff;
+    color: #fff;
 }
 
 #accountants h2 {
@@ -406,9 +419,9 @@ header {
 }
 
 #customers h2 {
-    font-size: 36px;
+    font-size: 32px;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 #customers img {
@@ -419,7 +432,7 @@ header {
 #customers a, #customers a span {
     font-size: 25px;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* === end customers section === */
@@ -446,6 +459,7 @@ footer ul {
 footer .footer-links > li {
     display: inline-block;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 footer .footer-links > li:first-child {
@@ -475,3 +489,486 @@ footer h6 span {
 }
 
 /* === end footer === */
+
+
+/* === MEDIA QUERIES DESKTOP-FIRST === */
+
+/* Large Devices, Wide Screens */
+@media screen and ( max-width : 1199px ) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media screen and ( max-width : 991px ) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media screen and ( max-width : 767px ) {
+
+
+}
+
+@media screen and ( max-width : 568px ) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and ( max-width : 480px ) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width : 320px) {
+
+
+}
+
+/* === end media queries desktop-first === */
+
+
+/* === MEDIA QUERIES MOBILE-FIRST === */
+
+/* Custom, iPhone Retina */
+@media screen and ( min-width : 320px ) and ( max-width : 1199px ) {
+
+
+    h1 {
+        font-size: 74px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .navbar-toggle {
+        margin-top: 23px;
+    }
+
+    header {
+        margin-bottom: 60px;
+    }
+
+    #pricing .get-started-btn,
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+        font-size: 26px;
+        padding: 16px 24px;
+        margin: 30px auto 0;
+    }
+
+    #package .get-started-btn {
+        margin: 110px auto;
+    }
+
+    #hero img {
+    	margin-top: -82px;
+    	margin-left: 34px;
+    	width: 228px;
+    }
+
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    #hero h1 {
+    	margin-top: 0px;
+    }
+
+    #hero h3 {
+    	margin-bottom: 40px;
+    }
+
+    #hero .btn, .get-started-btn {
+    	display: block;
+    	padding: 16px 60px;
+    	font-size: 30px;
+        margin: 0 auto;
+    }
+
+    #hero {
+        margin-bottom: 50px;
+    }
+
+    #table {
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    #hours {
+        margin-bottom: 0;
+    }
+
+    #hours h2 {
+        font-size: 24px;
+    }
+
+    #hours img {
+    	width: 50%;
+    	display: block;
+    	margin: 76px auto;
+    }
+
+    #features h2 {
+        margin-bottom: 0;
+    }
+
+    #features h3 {
+        margin-top: 40px;
+    	margin-bottom: 20px;
+    }
+
+    #pricing h2 {
+    	margin-bottom: 50px;
+    }
+
+    #pricing h3 {
+    	text-align: center;
+    }
+
+    #pricing .col-xs-12 {
+        text-align: center;
+    }
+
+    #pricing ul {
+        padding-left: 25px;
+    }
+
+    #pricing .btn-price {
+    	display: inline-block;
+        padding: 4px 28px;
+    	margin-bottom: 10px;
+    	margin-right: 10px;
+    }
+
+    #pricing .price-container {
+    	margin-bottom: 180px;
+    }
+
+    #pricing .price {
+    	top: 20px;
+    }
+
+    #pricing p {
+    	font-size: 16px;
+    	margin: 0 0 5px 10px;
+    }
+
+    #pricing ul li {
+    	font-size: 16px;
+    	padding-bottom: 5px;
+    }
+
+    #team h2 {
+    	margin-bottom: 36px;
+    }
+
+    #team .team-member {
+    	width: 60%;
+    }
+
+    #team .intro-text {
+    	margin-bottom: 40px;
+    }
+
+    #team img {
+        margin: 30px 0 16px -16px;
+    }
+
+    #accountants h2 {
+    	margin-bottom: 40px;
+    }
+
+
+    #package span {
+    	margin-right: 12px;
+    }
+
+    #package h2 {
+    	margin: 70px 10px;
+        line-height: 1.3;
+    }
+
+    #package p {
+    	margin-bottom: 50px;
+    }
+
+    #customers h2 {
+    	font-size: 30px;
+    }
+
+    h4 {
+    	font-size: 14px;
+    }
+
+    #customers a, #customers a span {
+    	margin-top: 0px;
+    	margin-bottom: 20px;
+    }
+
+    footer .footer-links > li {
+        margin-left: 35px;
+    }
+
+    footer h5 {
+    	margin-top: 25px;
+    }
+
+    footer .footer-links {
+        padding-left: 0;
+    }
+
+    footer ul {
+    	padding-left: 20px;
+    }
+
+    footer .footer-links li ul li {
+    	margin-bottom: 6px;
+    }
+
+    footer .footer-links > li {
+        margin-right: 30px;
+    }
+
+    footer h6 {
+    	right: 50px;
+    }
+
+    #team .phone-640 {
+        display: none;
+    }
+
+}
+
+@media screen and ( min-width : 320px ) {
+
+    #team .phone-320 {
+        display: none;
+    }
+
+    #team .team-member {
+    	width: 60%;
+    }
+}
+
+@media screen and ( min-width : 480px ) {
+
+    #team .team-member {
+    	width: initial;
+    }
+}
+
+@media screen and ( min-width : 320px ) and ( max-width : 639px ) {
+
+    #team .phone-320 {
+        display: block;
+    }
+
+}
+
+@media screen and ( min-width : 360px ) and ( max-width : 991px ) {
+
+    h1 {
+    	font-size: 84px;
+    }
+
+    #hours h2 {
+    	font-size: 26px;
+    }
+
+    #team img {
+        margin: 30px 0 16px;
+    }
+
+    #pricing .get-started-btn,
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+    	font-size: 30px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and ( min-width : 480px ) and ( max-width : 991px ) {
+
+    #hero img {
+    	width: 60%;
+        margin: -50px auto 0;
+    }
+
+    h1 {
+    	font-size: 104px;
+    }
+
+    #table {
+    	height: 210px;
+    }
+
+    #hours h2 {
+    	font-size: 30px;
+    }
+
+    #package h2 {
+    	margin: 70px 20px;
+    }
+
+    #team img {
+        margin: 30px 0 16px 64px;
+    }
+
+    footer .footer-links > li {
+    	margin-right: 0;
+    }
+}
+
+@media screen and ( min-width : 568px ) and ( max-width : 991px ) {
+
+    #team img {
+        margin: 30px 0 16px 108px;
+    }
+
+}
+
+@media screen and ( min-width : 640px ) and ( max-width : 991px ) {
+
+    #table {
+    	height: 280px;
+    }
+
+    #hours img {
+    	width: initial;
+    }
+
+    #team .team-member {
+    	width: initial;
+    }
+
+    #team img {
+    	margin: 0px 0 16px 0px;
+    }
+
+    #team p {
+        margin-bottom: 40px;
+    }
+
+    #package {
+        padding-left: 20px;
+    }
+}
+
+@media screen and ( min-width : 640px ) {
+
+    #team .phone-640 {
+        display: block;
+    }
+}
+
+/* Small Devices, Tablets */
+@media screen and ( min-width : 768px ) and ( max-width : 1199px ) {
+
+    .navbar-inverse .navbar-nav > li > a {
+    	padding: 30px 12px;
+    }
+
+    .navbar-inverse .navbar-nav > li.start-now-btn > a {
+    	display: inline-block;
+    }
+
+    #hero img {
+        width: initial;
+    }
+
+    #hero h1 {
+    	margin-top: -10px;
+	    font-size: 88px;
+    }
+
+    #table {
+    	height: 336px;
+    }
+
+    #pricing .get-started-btn,
+    #accountants .get-started-btn,
+    #package .get-started-btn {
+    	font-size: 26px;
+    }
+
+    #team img {
+    	margin: 0px 0 16px -58px;
+    }
+
+    h4 {
+    	font-size: 16px;
+    }
+
+    footer .footer-links > li:last-child {
+    	margin-left: 0px;
+    }
+}
+
+@media screen and ( min-width : 980px ) and ( max-width : 1199px ) {
+
+    #hero h1 {
+    	margin-top: -10px;
+	    font-size: 88px;
+    }
+
+    #table {
+    	height: 427px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media screen and ( min-width : 992px ) {
+
+    .navbar-inverse .navbar-nav > li.start-now-btn > a {
+    	display: block;
+    }
+
+    #hero h1 {
+    	margin-top: -10px;
+    	font-size: 116px;
+    }
+
+    #table {
+    	height: 446px;
+    }
+
+    #hours img {
+    	width: initial;
+    	display: block;
+    	margin: 46px auto;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media screen and ( min-width : 1200px ) {
+
+
+}
+
+/* === end media queries mobile-first === */
