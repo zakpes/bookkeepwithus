@@ -732,7 +732,7 @@ footer h6 span {
     }
 
     footer .footer-links > li {
-        margin-left: 35px;
+        margin-left: 0px;
     }
 
     footer h5 {
@@ -825,7 +825,7 @@ footer h6 span {
     }
 
     #table {
-    	height: 210px;
+    	height: 278px;
     }
 
     #hours h2 {
@@ -955,7 +955,7 @@ footer h6 span {
     }
 
     #table {
-    	height: 446px;
+    	height: 522px;
     }
 
     #hours img {
@@ -968,7 +968,9 @@ footer h6 span {
 /* Large Devices, Wide Screens */
 @media screen and ( min-width : 1200px ) {
 
-
+    #table {
+        height: 627px;
+    }
 }
 
 /* === end media queries mobile-first === */
