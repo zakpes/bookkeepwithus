@@ -508,7 +508,9 @@ footer h6 span {
 /* Small Devices, Tablets */
 @media screen and ( max-width : 767px ) {
 
-
+    ul.navbar-nav {
+        text-align: center;
+    }
 }
 
 @media screen and ( max-width : 568px ) {
