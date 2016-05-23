@@ -24,4 +24,15 @@ $(function() {
         $(".bar-bot").toggleClass("bar-bot-x");
     });
 
+    var $window = $(window);
+
+    $window.scroll(function () {
+
+        var $this = $(this);
+        var wScroll = -($this.scrollTop() / 4 + 130);
+
+        $("#blog-title-hero").css("background-position", "50% " + wScroll + "px");
+
+    });
+
 });
