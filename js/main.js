@@ -16,6 +16,12 @@ $(function() {
             $("#" + ($this.attr("rel"))).addClass("active").fadeIn(200);
         });
 
-    })
+    });
 
-})
+    $(".navbar-toggle").click(function() {
+        $(".bar-top").toggleClass("bar-top-x");
+        $(".bar-mid").toggleClass("bar-mid-x");
+        $(".bar-bot").toggleClass("bar-bot-x");
+    });
+
+});
