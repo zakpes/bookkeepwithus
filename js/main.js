@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($) {
 
     var $btnPrice = $(".btn-price");
     var $price = $(".price");
@@ -34,5 +34,21 @@ $(function() {
         $("#blog-title-hero").css("background-position", "50% " + wScroll + "px");
 
     });
+
+    smoothScroll(1000);
+
+    function smoothScroll(duration) {
+        $("a[href*='#']:not([href*='#'][data='blog'])").click(function(event) {
+
+            var target = $( $(this).attr("href") );
+
+            if (target.length) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: target.offset().top
+                }, duration);
+            }
+        });
+    }
 
 });

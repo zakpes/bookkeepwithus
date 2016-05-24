@@ -115,11 +115,11 @@ header {
 	color: #fff;
     font-size: 20px;
     padding: 30px 20px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .start-now-btn {
-    margin: 20px 20px;
+    margin: 20px 20px 16px 20px;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a {
@@ -132,12 +132,19 @@ header {
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-brand:hover {
-	color: #164868;
-	background-color: transparent;
+	color: #fff;
+	background-color: #164868;
 }
 
 .navbar-inverse .navbar-nav > li.start-now-btn > a:focus,
 .navbar-inverse .navbar-nav > li.start-now-btn > a:hover {
+	color: #fff;
+	background-color: #164868;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
 	color: #fff;
 	background-color: #164868;
 }
@@ -613,6 +620,25 @@ footer h6 span {
     font-size: 16px;
 }
 
+#blog p {
+    font-size: 16px;
+}
+
+.comment-wrapper {
+	border-bottom: 2px solid #2980b9;
+	margin-bottom: 20px;
+    padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.btn-post-comment {
+    margin-top: 10px;
+    transition: all 0.2s;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 16px;
+}
+
 /* --- end blog-specific styles --- */
 
 
@@ -901,6 +927,12 @@ footer h6 span {
     #team .team-member {
     	width: 60%;
     }
+
+    .latest-posts h3,
+    .categories h3,
+    .comment-wrapper h3 {
+        text-align: left;
+    }
 }
 
 @media screen and ( min-width : 480px ) {
@@ -1029,6 +1061,13 @@ footer h6 span {
 }
 
 /* Small Devices, Tablets */
+@media screen and ( min-width : 768px ) and ( max-width : 991px ) {
+
+    .navbar-nav > li {
+        margin-right: -2px;
+    }
+}
+
 @media screen and ( min-width : 768px ) and ( max-width : 1199px ) {
 
     .navbar-inverse .navbar-nav > li > a {
@@ -1100,6 +1139,10 @@ footer h6 span {
         text-align: left;
         margin-bottom: 16px;
     }
+
+    .comment-wrapper {
+    	border-bottom: none;
+    }
 }
 
 @media screen and ( min-width : 980px ) and ( max-width : 1199px ) {
@@ -1154,6 +1197,10 @@ footer h6 span {
 
     #table {
         height: 627px;
+    }
+
+    #team img {
+        margin-left: 124px;
     }
 
     #blog-title-hero {
