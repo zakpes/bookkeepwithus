@@ -154,13 +154,13 @@ header {
     margin-top: 0;
 }
 
-.bar-mid-x {
+.icon-bar:active .bar-mid-x {
     transform: scaleX(0);
 }
 
 .bar-top-x {
     transform: rotate(45deg);
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar.bar-bot-x {
