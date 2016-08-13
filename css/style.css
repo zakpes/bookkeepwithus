@@ -73,8 +73,8 @@ span {
 	-ms-user-select: none;
 	user-select: none;
 	background-image: none;
-	background: #c6090d;
-	border: 2px solid #8A070A;
+	background: #2980b9;
+	border: 2px solid #164868;
 	color: #fff;
 	border-radius: 60px;
 	text-transform: uppercase;
@@ -83,8 +83,8 @@ span {
 
 #hero .btn:hover,
 .get-started-btn:hover {
-    background: #8A070A;
-    border: 2px solid #8A070A;
+    background: #164868;
+    border: 2px solid #164868;
     color: #fff;
 }
 
