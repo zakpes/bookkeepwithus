@@ -149,12 +149,22 @@ header {
 	background-color: #164868;
 }
 
+.navbar-inverse .navbar-toggle {
+    border-color: hsl(203, 65%, 25%);
+    transition: all .3s;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+	background-color: hsl(203, 65%, 25%);
+}
+
 .icon-bar {
     transition: all 0.3s ease-in-out;
     margin-top: 0;
 }
 
-.icon-bar:active .bar-mid-x {
+.bar-mid-x {
     transform: scaleX(0);
 }
 
@@ -640,6 +650,65 @@ footer h6 span {
 }
 
 /* --- end blog-specific styles --- */
+
+
+/* Contact Form
+ * ==================================== */
+
+#section-contact-form {
+	padding-right: 10px;
+}
+
+.contact-form-title {
+	color: HSL(0, 0%, 20%);
+	margin-bottom: 40px;
+}
+
+#section-contact-form .form-control,
+#section-contact-form textarea {
+	background-color: transparent;
+	margin-bottom: 20px;
+	color: #282828;
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid #2980b9;
+	border-left: 2px solid #2980b9;
+	padding: 6px 12px;
+	font-size: 14px;
+	transition: all 0.3s;
+}
+
+#section-contact-form .form-control:focus,
+#section-contact-form textarea:focus {
+	box-shadow: none;
+	border-color: #164868;
+}
+
+.btn-send {
+	margin-bottom: 50px;
+	border-radius: 0;
+	background-color: #2980b9;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+.btn-send:hover,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+	color: #fff;
+	background-color: #164868;
+}
+
+.btn-lg {
+	padding: 8px 50px;
+}
+
+.success {
+	color: #fff;
+	margin-bottom: 50px;
+}
 
 
 /* === MEDIA QUERIES DESKTOP-FIRST === */

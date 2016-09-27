@@ -18,6 +18,7 @@ jQuery(function($) {
 
     });
 
+    // navbar toggle hamburger menu btn
     $(".navbar-toggle").click(function() {
         $(".bar-top").toggleClass("bar-top-x");
         $(".bar-mid").toggleClass("bar-mid-x");
